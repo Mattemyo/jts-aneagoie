@@ -1,0 +1,7 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "non-console": "error"
+  },
+  "extends": ["airbnb-base"]
+}
