@@ -12,7 +12,6 @@ const getPeople = async (fetch) => {
   try {
     const response = await fetch('https://swapi.co/api/people');
     const { count, results } = await response.json();
-    console.log(results);
     return {
       count,
       results,
